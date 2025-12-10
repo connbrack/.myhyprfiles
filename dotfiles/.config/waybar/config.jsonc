@@ -4,7 +4,6 @@
 
 
   "modules-left": [
-    // "cpu",
     "hyprland/window"
     // "custom/ai"
   ],
@@ -13,6 +12,7 @@
   ],
   "modules-right": [
     // "custom/power_profile",
+    "cpu",
     "memory",
     "wireplumber",
     "battery",
@@ -48,7 +48,7 @@
     }
   },
   "hyprland/window": {
-  "format": "{class}"
+  "format": "{title}"
 },
 "tray":{
   "spacing":5
