@@ -12,6 +12,7 @@
   ],
   "modules-right": [
     // "custom/power_profile",
+    "custom/updates",
     "cpu",
     "memory",
     "wireplumber",
@@ -19,28 +20,27 @@
     "network",
     "clock",
     "tray",
-    "custom/weather",
-    "custom/updates",
+    "custom/weather"
     // "custom/hyprsunset",
-    // "custom/clipboard",
+    // "custom/clipboard"
     // "custom/swaync",
-    "custom/wlogout"
+    // "custom/wlogout"
   ],
 
   "hyprland/workspaces": {
     "format": "{icon}",
     "on-click": "activate",
     "format-icons": {
-      "1": "1",
-      "2": "2",
-      "3": "3",
-      "4": "4",
-      "5": "5",
-      "6": "6",
-      "7": "7",
-      "8": "8",
-      "9": "9",
-      "10": "10",
+      "1": "◯",
+      "2": "◯",
+      "3": "◯",
+      "4": "◯",
+      "5": "◯",
+      "6": "◯",
+      "7": "◯",
+      "8": "◯",
+      "9": "◯",
+      "10": "◯",
       "active":""
     },
     "persistent-workspaces": {
@@ -77,7 +77,7 @@
   },
 
   "cpu": { "format": "󰍛 {usage}%", "tooltip": true },
-  "memory": { "format": " {used:0.1f}G/{total:0.1f}G", "tooltip": true },
+  "memory": { "format": " {used:0.1f}G", "tooltip": true },
   "battery": {
     "format": "{icon} {capacity}%",
     "format-charging":"⚡ {capacity}%",
@@ -89,7 +89,7 @@
   },
 
   "network": {
-    "format-wifi": "󰤨 {essid} ({signalStrength}%)",
+    "format-wifi": "󰤨 {essid}",
     "format-ethernet": "󰈀 {ipaddr}",
     "format-disconnected": "󰤭 No net",
     "tooltip": true
